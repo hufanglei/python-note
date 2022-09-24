@@ -13,6 +13,7 @@ while count < 3:
         print(i + 1, c_num)
     print("---------------------------")
     choice = input("输入你选择的车牌号")
+    # strip去空格
     if choice.strip() in car_nums:  # 代表选择是合法的
         print(f"恭喜你选择了新车牌号:{choice}")
         break
