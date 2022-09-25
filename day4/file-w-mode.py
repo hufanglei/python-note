@@ -1,4 +1,4 @@
-f = open("name_list.txt", mode="a")
+f = open("name_list2", mode="a",encoding="utf-8")
 
 f.write("张三\n")
 f.write("李四\n")

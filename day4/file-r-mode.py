@@ -1,6 +1,6 @@
 
 
-f = open("name_list.txt", mode="r")
+f = open("name_list2", mode="r")
 
 # f = open("name_list",mode="r")
 
