@@ -1,17 +1,13 @@
 ﻿def sayhi():
     print("Hello, I'm nobody")
 
-
 sayhi()
-
 
 def calc(x, y):
     res = x + y
     print(res)
 
-
 calc(5, 22)
-
 
 def sayhi(name, age):
     print(f"hello， my name is {name}， I am {age} old")
@@ -69,7 +65,6 @@ def stu_register(name, age, course='PY', country='CN'):
         return False
     else:
         return True,age,course,country
-
 
 registriation_status = stu_register("王⼭炮", 21, course="PY全栈开发", country='JP')
 print(registriation_status)

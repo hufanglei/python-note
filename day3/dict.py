@@ -8,3 +8,16 @@ dic = {
 
 print("佩奇" in dic)
 print(dic.get("佩奇"))
+
+dic2 = {
+    "Alex": 16,
+    "黑姑娘": 27,
+    "佩奇": 26,
+}
+print(dic2)
+print('-----------------')
+for k,v in dic.items():
+  print(k,v)
+print('-----------------')
+for k in dic:
+  print(k,dic[k])

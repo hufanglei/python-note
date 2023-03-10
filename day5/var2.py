@@ -1,6 +1,5 @@
 ﻿name = "Alex Li"
 
-
 def change_name():
     # 就是想在函数⾥修改全局变量怎么办？
     global name

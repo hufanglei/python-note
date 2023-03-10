@@ -17,6 +17,5 @@
 # chmod()
 
 
-
 import  my_first_mod   #python my_first_mod.py
 my_first_mod.sayHi()

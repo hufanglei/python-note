@@ -1,15 +1,12 @@
-﻿# f = open("name_list2",encoding="utf-8")
-# f.seek(8)
-# print(f.readline())
+﻿import urllib.parse
 
-f = open("seek_write","w")
-f.write("hello1\n")
-print("返回光标当前位置: ",f.tell())
+string = "这是一个测试"
+encoded_string = urllib.parse.quote(string.encode('utf-8'))
 
-f.write("hello2\n")
-print("返回光标当前位置: ",f.tell())
+print(encoded_string)
+# Output: '%D5%C5%CA%A1%B8%B4%B2%BB%B2%BB'
 
-f.write("hello3\n")
-print("返回光标当前位置: ",f.tell())
-f.seek(10)
-# f.write("-----")
+decoded_string = urllib.parse.unquote(encoded_string, encoding='utf-8')
+
+print(decoded_string)
+# Output: '这是一个测试'
